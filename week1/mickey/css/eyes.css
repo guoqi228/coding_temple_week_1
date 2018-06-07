@@ -1,0 +1,49 @@
+.eyeball{
+  width:20px;
+  height:20px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  border-radius: 100%;
+  color: black;
+  box-shadow:
+  720px 381px 0 0 currentColor,
+  910px 381px 0 0 currentColor;
+}
+
+.left_eye{
+  width:150px;
+  height:150px;
+  /*background-color: red;*/
+  position: absolute;
+  top:360px;
+  left:700px;
+  border-bottom: 30px solid white;
+  border-radius: 0 0 100% 100%;
+  transform:rotate(180deg);
+}
+
+.right_eye{
+  width:150px;
+  height:150px;
+  /*background-color: red;*/
+  position: absolute;
+  top:360px;
+  left:890px;
+  border-bottom: 30px solid white;
+  border-radius: 0 0 100% 100%;
+  transform:rotate(180deg);
+
+}
+
+.mouth{
+  width:150px;
+  height:150px;
+  /*background-color: red;*/
+  position: absolute;
+  top:460px;
+  left:780px;
+  border-bottom: 20px solid white;
+  border-radius: 0 0 100% 100%;
+  /*transform:rotate(-60deg);*/
+}

@@ -1,0 +1,29 @@
+@import "eyes.css";
+.ears{
+
+  width: 250px;
+  height:250px;
+  color:black;
+  /*background-color: red;*/
+  position: absolute;
+  top:20px;
+  left:20px;
+  box-shadow:
+  500px 20px 0 0 currentColor,
+  900px 20px 0 0 currentColor;
+  border-radius: 100%;
+}
+
+.ears::before{
+  width: 500px;
+  height:500px;
+  content:"";
+  color:black;
+  /*background-color: red;*/
+  position: absolute;
+  top:0px;
+  left:0px;
+  box-shadow:
+  580px 200px 0 0 currentColor;
+  border-radius: 100%;
+}

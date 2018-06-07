@@ -1,0 +1,81 @@
+h1{
+  color: steelblue;
+  text-align: center;
+}
+
+form{
+  width: 33%;
+  margin: 20px auto;
+  border: 1px solid steelblue;
+}
+
+form input{
+  display: block;
+  width: 90%;
+  margin: 10px;
+  padding: 5px;
+}
+
+input[type="radio"]{
+  display: inline;
+  width:auto;
+  margin-left: 25px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+  font-size: 120%;
+}
+
+table{
+  border: 2px solid steelblue;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table tr th, table tr td{
+  border: 1px solid steelblue;
+  padding: 15px;
+}
+
+th{
+  color: steelblue;
+  font-weight: bold;
+}
+
+td:hover{
+  font-size: 200%
+}
+
+figure{
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+figure>img{
+  display: block;
+  margin: 20px auto;
+}
+
+p:hover{
+  font-size: 100%;
+  font-weight: bold;
+  color: red;
+}
+
+h1[id="super_lg_text"]{
+  font-size: 200px;
+}
